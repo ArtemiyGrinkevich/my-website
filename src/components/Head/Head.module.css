@@ -51,7 +51,7 @@
 @media (max-width: 450px) {
  
  .hello{
-  top: 10%;
+  top: 15%;
   right: 7%;
  }
 }
@@ -88,9 +88,7 @@ color: rgb(229, 255, 0);
   justify-content: start;
   
 }
-.superHi{
-  
-}
+
 
 @media (max-width: 1300px) {
   .name  {
