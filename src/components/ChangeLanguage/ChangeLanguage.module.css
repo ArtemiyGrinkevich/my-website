@@ -82,7 +82,7 @@
 @media (max-width: 800px) {
     .language_button {
         color: white;
-        left: -5px;
+        left: -15px;
     }
     .language_wrapper {
         position: fixed;
