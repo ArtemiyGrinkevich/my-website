@@ -34,14 +34,14 @@
     background: 
     url(..//..//assets/images/PhotoRoom_20230802_164729.png) -10% 450% / 1000px no-repeat, black
     url(..//../assets/images/pexels-elīna-arāja-3377405.jpg)  0 300px/295% no-repeat;
-    background-attachment: fixed;
+    background-attachment: local;
  }} 
  @media (max-width: 820px) {
   .header  {
     background: 
     url(..//..//assets/images/PhotoRoom_20230802_164729.png) 25% 20% / 1000px no-repeat, black
     url(..//../assets/images/pexels-elīna-arāja-3377405.jpg)  0 300px/295% no-repeat;
-    background-attachment: fixed;
+    
  }} 
 
 
