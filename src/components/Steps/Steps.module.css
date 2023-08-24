@@ -1,0 +1,98 @@
+.start{
+    height: 100vh;
+    /* background: url(../../assets/images/pexels-nemuel-sereti-6424584.jpg)0 0 / 100% no-repeat,rgba(0, 0, 0, 0.903); */
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15px;
+    font-family: Impact, fantasy;
+}
+.arrow{
+    font-size: 40px;
+    
+}
+
+.title{
+    color: white;
+    font-size: 3rem;
+}
+.description{
+    
+    color: yellow;
+    max-width: 800px;
+    font-size: 2rem;
+}
+.features{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    transition: transform 0.3s;
+    overflow: hidden;
+    border-radius: 30px;
+    border: 0.3px solid yellow;
+    overflow: scroll;
+    min-height: 200px;
+    background: rgb(255, 255, 0);
+    font-family: Impact, fantasy;
+}
+.feature:hover{
+    /* cursor: pointer; */
+    transform: scale(1.2);
+    /* background-color: rgba(0, 0, 0, 0.187); */
+    /* text-shadow: rgba(0, 0, 0, 0.659) 1px 0 5px; */
+}
+.feature:nth-child(1){
+    max-width: 250px;
+    max-height: 300px;
+    /* color: white; */
+    
+}
+.feature:nth-child(2){
+    max-width: 250px;
+    max-height: 300px;
+    /* color: white; */
+    
+}
+.feature:nth-child(3){
+    max-width: 250px;
+    max-height: 300px;
+    /* color: white; */
+    
+}
+.feature:nth-child(4){
+    max-width: 250px;
+    max-height: 300px;
+    /* color: white; */
+    
+}
+@media (max-width:800px){
+    .start{
+        height: 100%;
+        background: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media (max-width:1130px){
+    .feature:not(.feature--special) {
+        margin: 10px; 
+        
+    }
+    .start{
+        height: 100%;
+        background: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}

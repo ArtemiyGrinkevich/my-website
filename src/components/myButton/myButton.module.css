@@ -1,0 +1,28 @@
+
+  .button {
+    color: yellow;
+    background: none;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 5px;
+    position: relative; 
+    padding-left: 20px;
+    transition: transform 0.3s; 
+    font-family: Impact, fantasy;
+  }
+  .button:hover{
+    transform: scale(1.1);
+    
+    
+  }
+  
+  .icon {
+    transition: transform 0.3s ease;
+    position: absolute; 
+    top: 50%; 
+    left: 0px; 
+    transform: translateY(-50%) rotate(var(--icon-rotation, 0deg)); 
+    margin-left: 3px;
+  }

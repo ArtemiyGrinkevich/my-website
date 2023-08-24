@@ -1,0 +1,117 @@
+.aboutFrontend {
+  position: relative;
+    background-color: #000000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    color: white;
+    padding: 15px;
+    overflow: scroll;
+    font-family: Impact, fantasy;
+  }
+  .goodFrontend{
+    min-height: 20%;
+  }
+  .about{
+    height: 100%;
+  }
+  .title1{
+    color: white;
+    font-size: 7rem;
+    margin: 0 ;
+    position: absolute;
+    left:15%;
+    top: 10%;
+    line-height: 1.6;
+  }
+  .title2{
+    color: yellow;
+    font-size: 7rem;
+    margin: 0;
+    position: absolute;
+    right: 15%;
+    top: 25%;
+    line-height: 1.6;
+  }
+  .description{
+    color: yellow;
+    max-width: 1000px;
+    max-height: 60%;
+    font-size: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .portrait{
+    max-height: 70%;
+    max-width: 43%;
+    margin: 50px 10px;
+    border-radius: 2px;
+  }
+  .descriptionText{
+    margin: 10px;
+    max-width: 50%;
+  }
+  
+  .description1{
+    text-align: start;
+    
+  }
+  .description2{
+    text-align: start;
+  }
+  @media (max-width:1100px) {
+    .aboutFrontend {
+      height: 100%;
+    }
+    .title1{
+      font-size: 5rem;
+      top: 15%;
+      position: static;
+    }
+    .title2{
+      font-size: 5rem;
+      top: 31%;
+      position: static;
+    }
+    
+  }
+  @media (max-width:800px){
+
+    .aboutFrontend {
+      height: 100%;
+    }
+    .description{
+      margin: 0;
+      flex-wrap: wrap;
+    }
+    .descriptionText{
+      max-width: 100%;
+      
+    }
+    
+    .portrait{
+      
+      max-width: 65%;
+    }
+    
+    .title1{
+      font-size: 3rem;
+      top: 15%;
+    }
+    .title2{
+      font-size: 3rem;
+      top: 31%;
+    }
+}
+
+@media (max-width:500px){
+  .portrait{
+      
+    max-width: 80%;
+  }
+}
