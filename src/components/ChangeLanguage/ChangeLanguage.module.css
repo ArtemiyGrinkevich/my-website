@@ -25,7 +25,7 @@
 }
 
 .language_button {
-    position: relative;
+    /* position: static; */
     color: yellow;
     background: none;
     border: none;
@@ -82,13 +82,16 @@
 @media (max-width: 800px) {
     .language_button {
         color: white;
-        left: -15px;
+        /* left: -15px; */
     }
     .language_wrapper {
         position: fixed;
         top: 15px;
-        left: 0;
+        left: -5px;
         z-index: 5;
+    }
+    .language {
+        left: 0;
     }
     .language_container.open .language_p:nth-child(1) {
         transform: translateX(-100%);

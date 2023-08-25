@@ -32,7 +32,8 @@
 @media (max-width: 912px) {
   .header  {
     background: 
-    url(..//..//assets/images/PhotoRoom_20230802_164729.png) -10% 450% / 1000px no-repeat, black
+    url(..//..//assets/images/PhotoRoom_20230802_164729.png) 10% 20% / 1000px no-repeat, black
+    /* url(..//..//assets/images/PhotoRoom_20230802_164729.png) -100% 100% / 1000px no-repeat, black */
     url(..//../assets/images/pexels-elīna-arāja-3377405.jpg)  0 300px/295% no-repeat;
     background-attachment: local;
  }} 
@@ -71,7 +72,7 @@ color: rgb(229, 255, 0);
 
   
   position:relative;
-  top: 8%;
+  top: 10%;
   right: 5%;
   font-size: 10rem;
   font-family: Impact, fantasy;
@@ -148,18 +149,18 @@ color: rgb(229, 255, 0);
     top: 30px;
     }
     .hello{
-      display: none;
-      /* right: -5%;
+      /* display: none; */
+      right: -5%;
       font-size: 1.5rem;
       max-width: 200px;
-      top: 5%; */
+      top: 12%;
     }
     
 }
 @media (max-width: 414px) {
-  .hello{
+  /* .hello{
     display: none;
-   }
+   } */
    .name  {
     position: absolute;
     left:110%;
@@ -167,6 +168,11 @@ color: rgb(229, 255, 0);
     top: 2%;
     }
  }
+ @media (max-width: 350px) {
+  .hello{
+    display: none;
+   }
+  }
 @media (max-width: 280px) {
   .name  {
     

@@ -9,11 +9,22 @@ import { BsFill1CircleFill,BsFill2CircleFill,BsFill3CircleFill,BsFill4CircleFill
 
 const textAnimation = {
   hidden:{
-    y: -100,
+    x: -100,
     opacity: 0
   },
   visible: custom=>({
-    y: 0,
+    x: 0,
+    opacity: 1,
+    transition: {delay : custom * 0.2}
+  })
+}
+const textAnimationRight = {
+  hidden:{
+    x: 100,
+    opacity: 0
+  },
+  visible: custom=>({
+    x: 0,
     opacity: 1,
     transition: {delay : custom * 0.2}
   })
@@ -42,7 +53,7 @@ const Features = ({id}) => {
      
       <motion.h1 custom={1} variants={textAnimation} className={classes.title}>{t('stepTitle')} </motion.h1>
       <hr style={{width:'30%',color:'yellow'}}/>
-        <motion.h2 custom={2} variants={textAnimation} className={classes.description}>{t('stepDescription')}</motion.h2>
+        <motion.h2 custom={2} variants={textAnimationRight} className={classes.description}>{t('stepDescription')}</motion.h2>
       
         
         <motion.div
