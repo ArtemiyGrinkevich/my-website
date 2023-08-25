@@ -10,7 +10,7 @@
 .language_container {
     position: absolute;
     top: 0;
-    left: 0;
+    left: -15px;
 }
 
 .language {
@@ -84,10 +84,15 @@
         color: white;
         /* left: -15px; */
     }
+    .language_container {
+        /* position: absolute; */
+        top: 0;
+        left: 15px;
+    }
     .language_wrapper {
         position: fixed;
         top: 15px;
-        left: -15px;
+        left: -20px;
         z-index: 5;
     }
     .language {
