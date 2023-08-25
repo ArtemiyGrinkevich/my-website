@@ -33,6 +33,17 @@ const Experience = ({ id }) => {
       transition: {delay : custom * 0.2}
     })
   }
+  const textAnimationRight = {
+    hidden:{
+      x: 100,
+      opacity: 0
+    },
+    visible: custom=>({
+      x: 0,
+      opacity: 1,
+      transition: {delay : custom * 0.2}
+    })
+  }
   return (
     <motion.div 
     initial='hidden'
@@ -41,10 +52,10 @@ const Experience = ({ id }) => {
       
             <div className={classes.experience}>
               <div  style={{ maxWidth: '800px' , padding:'15px'}}>
-                  <h2 style={{color:'white'}}>{t('frontendExperience')}</h2>
+                  <motion.h2 custom={1} variants={textAnimation} style={{color:'white'}}>{t('frontendExperience')}</motion.h2>
                   <hr style={{maxWidth:'50%'}}/>
-                  <motion.h2 custom={1} variants={textAnimation}>{t('experienceTitle')}</motion.h2>
-                  <motion.h2 className={classes.description} custom={2} variants={textAnimation}>{t('experienceDescription')}  <Link className={classes.link} to='https://drive.google.com/file/d/134LJw1ctawx-ApvhvW3DyIwVpZoxTGNY/view?usp=drive_link' target="_blank">
+                  <motion.h2 custom={2} variants={textAnimationRight}>{t('experienceTitle')}</motion.h2>
+                  <motion.h2 className={classes.description} custom={3} variants={textAnimationRight}>{t('experienceDescription')}  <Link className={classes.link} to='https://drive.google.com/file/d/134LJw1ctawx-ApvhvW3DyIwVpZoxTGNY/view?usp=drive_link' target="_blank">
                   My certificate <BsFillMortarboardFill/></Link></motion.h2>
               </div>
               
