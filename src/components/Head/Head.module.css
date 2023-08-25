@@ -114,6 +114,9 @@ color: rgb(229, 255, 0);
     .hello{
       right: -5%;
     }
+    .header{
+      min-height: 600px;
+    }
 }
 @media (max-width: 800px) {
   .name  {
@@ -123,8 +126,9 @@ color: rgb(229, 255, 0);
       right: -10%;
       font-size: 1.5rem;
       max-width: 200px;
-
     }
+    
+    
 }
 
 @media (max-width: 700px) {
