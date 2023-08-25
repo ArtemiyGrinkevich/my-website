@@ -113,6 +113,7 @@ color: rgb(229, 255, 0);
     }
     .hello{
       right: -5%;
+      max-width: 400px;
     }
     .header{
       min-height: 600px;
