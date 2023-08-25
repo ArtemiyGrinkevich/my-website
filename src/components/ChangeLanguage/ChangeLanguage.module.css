@@ -92,7 +92,7 @@
     .language_wrapper {
         position: fixed;
         top: 15px;
-        left: -20px;
+        left: -40px;
         z-index: 5;
     }
     .language {
