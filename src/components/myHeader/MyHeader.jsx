@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import {MButton} from '../myButton/myButton';
 import {  useTranslation } from 'react-i18next';
 import '../../i18n'
+import ChangeLanguage from '../ChangeLanguage/ChangeLanguage';
 
 const MyHeader = ({id}) => {
     const {t,i18n} = useTranslation()
@@ -19,11 +20,21 @@ const MyHeader = ({id}) => {
         });
       }
     };
+    const changeLanguage = (lang) => {
+      i18n.changeLanguage(lang);
+      
+    };
   return (
     <div id={id} className={classes.header_container}>
         <div onClick={() => scrollTo('head')} className={classes.name}>
           <div  className={classes.nameG}>{t('head2')} </div>
           <div  className={classes.nameA}>{t('head1')}</div>
+          <div className={classes.lang}>
+          <div className={classes.langEN} onClick={() => changeLanguage('en')}>EN</div>
+          <div className={classes.langRU} onClick={() => changeLanguage('ru')}>RU</div>
+          </div>
+          
+          
         </div>
 
         <div  className={classes.header}>

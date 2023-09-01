@@ -80,12 +80,15 @@
     visibility: visible;
 }
 @media (max-width: 800px) {
-    .language_button {
+    .language_wrapper{
+        display: none;
+    }
+    /* .language_button {
         color: white;
-        /* left: -15px; */
+        
     }
     .language_container {
-        /* position: absolute; */
+        
         top: 0;
         left: 15px;
     }
@@ -121,4 +124,5 @@
         visibility: visible;
     }
 
+ */
 }
