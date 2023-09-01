@@ -8,6 +8,12 @@
     "myHeaderExperience":"Experience",
     "myHeaderContacts":"Contacts",
 
+    "burger_header":"Header",
+    "burger_steps":"Steps",
+    "burger_about":"About me",
+    "burger_experience":"Experience",
+    "burger_contact":"Contact me",
+
     "timeGoAway": "Let's be friends! Time goes away: ",
     "head1": "Artemiy ",
     "head2": "Grinkevich",

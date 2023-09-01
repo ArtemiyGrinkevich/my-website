@@ -7,6 +7,7 @@ import Burger from '../Burger/Burger'
 import {  useTranslation } from 'react-i18next';
 import '../../i18n'
 import ChangeLanguage from '../ChangeLanguage/ChangeLanguage';
+import MyHeader from '../myHeader/MyHeader';
 
 const textAnimation = {
   hidden:{
@@ -48,10 +49,10 @@ const Head = ({ id }) => {
       whileInView='visible'
       viewport={{amount:0.2}}
       id={id} className={classes.header}>
-
+          
           <Burger/>
           <ChangeLanguage/>
-      
+          
           <motion.div custom={2} variants={textAnimation} className={classes.hello}>
             {t('superHi')}
           </motion.div>

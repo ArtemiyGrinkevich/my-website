@@ -1,5 +1,5 @@
 .header{
-          
+        
   background: 
   url(..//..//assets/images/PhotoRoom_20230802_164729.png) 5% 60% /1000px no-repeat,
  url(..//../assets/images/pexels-elīna-arāja-3377405.jpg)  0 300px/195% no-repeat black;
@@ -7,6 +7,13 @@
  height: 100vh;
  display: flex;
  flex-direction: column;
+}
+.lang{
+ 
+  height: 40px;
+  color: yellow;
+  font-size: 30px;
+  position: sticky;
 }
  .hello{
   color: yellow;
