@@ -3,11 +3,11 @@
 
 
 import './App.css';
-import { Routes, Route, Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import Head from './components/Head/Head';
 import AboutFrontend from './components/AboutFrontend/AboutFrontend';
 import Experience from './components/Experience/Experience';
-import React, { useState, useEffect, Suspense } from 'react';
+import React, { Suspense } from 'react';
 import { useTranslation } from 'react-i18next';
 import Loader from './components/Loader/Loader';
 import Steps from './components/Steps/Steps';
