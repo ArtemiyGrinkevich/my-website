@@ -175,7 +175,7 @@ color: rgb(229, 255, 0);
    } */
    .name  {
     position: absolute;
-    left:110%;
+    left:120%;
     font-size: 3rem;
     top: 3%;
     }
@@ -184,6 +184,11 @@ color: rgb(229, 255, 0);
   .hello{
     display: none;
    }
+   .name  {
+    
+    font-size: 2rem;
+    top: 3%;
+    }
   }
 @media (max-width: 280px) {
   .name  {
