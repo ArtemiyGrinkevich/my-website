@@ -10,16 +10,16 @@
 .language_container {
     position: absolute;
     top: 0;
-    left: -10px;
+    left: 0;
 }
 
 .language {
     position: absolute;
     top: 2.5rem;
-    left: -20px;
+    /* left: -20px; */
     display: flex;
     flex-direction: column;
-    width: 70px;
+    width: 45px;
     transition: transform .5s, visibility .5s;
     z-index: 3;
 }

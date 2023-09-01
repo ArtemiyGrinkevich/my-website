@@ -33,8 +33,8 @@ const ChangeLanguage = () => {
           <MdLanguage />
         </button>
         <div className={classes.language}>
-          <button style={{display:'flex',justifyContent:'center',alignItems:'center',margin:'10px 0',background:'none',border:'none',paddingLeft:'20px'}} onClick={() => changeLanguage('en')}><div style={{borderRadius:'50%',overflow:'hidden',height:'20px',width:'22px',display:'flex',justifyContent:'center',alignItems:'center',fontSize:'46px',paddingTop:'2px',marginTop:'10px'}}>🇬🇧</div></button>
-          <button style={{display:'flex',justifyContent:'center',alignItems:'center',background:'none',border:'none',paddingLeft:'20px'}} onClick={() => changeLanguage('ru')}><div style={{borderRadius:'50%',overflow:'hidden',height:'20px',width:'22px',display:'flex',justifyContent:'center',alignItems:'center',fontSize:'46px',paddingTop:'2px',marginTop:'15px'}}>🇷🇺</div></button>
+          <button style={{display:'flex',justifyContent:'center',alignItems:'center',margin:'10px 0',background:'none',border:'none'}} onClick={() => changeLanguage('en')}><div style={{borderRadius:'50%',overflow:'hidden',height:'20px',width:'22px',display:'flex',justifyContent:'center',alignItems:'center',fontSize:'46px',paddingTop:'2px',marginTop:'10px'}}>🇬🇧</div></button>
+          <button style={{display:'flex',justifyContent:'center',alignItems:'center',background:'none',border:'none'}} onClick={() => changeLanguage('ru')}><div style={{borderRadius:'50%',overflow:'hidden',height:'20px',width:'22px',display:'flex',justifyContent:'center',alignItems:'center',fontSize:'46px',paddingTop:'2px',marginTop:'15px'}}>🇷🇺</div></button>
         </div>
       </div>
     </div>

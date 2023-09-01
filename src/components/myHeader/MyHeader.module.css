@@ -20,7 +20,7 @@
 }
 .lang{
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     height: 40px;
     align-items: center;
     gap: 1.5rem;
