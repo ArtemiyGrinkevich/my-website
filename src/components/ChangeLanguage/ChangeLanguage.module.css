@@ -25,7 +25,9 @@
 }
 
 .language_button {
-    /* position: static; */
+    position: absolute;
+    top: 0;
+    right: -45px;
     color: yellow;
     background: none;
     border: none;
