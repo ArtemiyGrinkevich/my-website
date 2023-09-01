@@ -144,7 +144,7 @@ color: rgb(229, 255, 0);
     position: absolute;
     left:0;
     font-size: 4rem;
-    top: 80px;
+    top: 100px;
     }
     .hello{
       right: -10%;
@@ -156,9 +156,9 @@ color: rgb(229, 255, 0);
 @media (max-width: 600px) {
   .name  {
     position: absolute;
-    right:10%;
+    right:7%;
     font-size: 3rem;
-    top: 30px;
+    top: 50px;
     }
     .hello{
       /* display: none; */
@@ -177,7 +177,7 @@ color: rgb(229, 255, 0);
     position: absolute;
     left:110%;
     font-size: 3rem;
-    top: 2%;
+    top: 3%;
     }
  }
  @media (max-width: 350px) {
